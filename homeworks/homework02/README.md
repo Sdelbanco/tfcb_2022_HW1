@@ -26,7 +26,9 @@ Note that in reading this article, you don't need to come up with a script that 
 _Write a command here that redirects stdout from `script2.sh` to a file named `stdout.txt` and redirects stderr to a file named `stderr.txt`._
 
 chmod a+x script2.sh
+
 ./script2.sh 1> sdout.txt
+
 ./script2.sh 2> sderr.txt
 
 
