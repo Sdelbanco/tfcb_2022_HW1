@@ -35,15 +35,31 @@ To change 'the United States' to 'America'
 
 ### 05-history
 
+To pull up history in a navigatible format
+
+history | less
+
+### 06-scripting
+
+Creating a script that creates two text files
+
+date > date.txt
+
+ls > ls.txt
+
+fc -ln -2 > script01.sh
+
+bash script01.sh
+
 Points of frustration: 
-I ran into some issues with the 'man' and 'vi' or 'vim' command (as did a few other students), so it would be good to include materials for troubleshooting issues.
+I ran into some issues with the 'man' and 'vi' or 'vim' command (as did a few other students), so it would be good to include materials for troubleshooting issues. I talked to a TA and they provided me with a code for installing vim.
 
 
 ## Problem 1
 
 **20 points**
 
-Learn about the difference between standard out ("stdout") and standard error ("stderr") from [this article](https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/) (feel free to read the whole thing, but you can stop before the section "Detecting Redirection Within a Script").
+Learn about the difference between standard out ("stdout") and standard error ("stderr") from [this article](https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/) (feel free to read the whole thing, but you can## stop before the section "Detecting Redirection Within a Script").
 Note that in reading this article, you don't need to come up with a script that will throw an error: we have one at `tfcb_2021/lectures/lecture03/06-scripting/script2.sh`.
 
 _Write a command here that redirects stdout from `script2.sh` to a file named `stdout.txt` and redirects stderr to a file named `stderr.txt`._
