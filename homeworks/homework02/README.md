@@ -12,6 +12,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 Complete the interactive tutorial.
 
 _Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
+I ran into some issues with the 'man' and 'vi' or 'vim' command (as did a few other students), so it would be good to include materials for troubleshooting issues.
 
 
 ## Problem 1
@@ -22,6 +23,10 @@ Learn about the difference between standard out ("stdout") and standard error ("
 Note that in reading this article, you don't need to come up with a script that will throw an error: we have one at `tfcb_2021/lectures/lecture03/06-scripting/script2.sh`.
 
 _Write a command here that redirects stdout from `script2.sh` to a file named `stdout.txt` and redirects stderr to a file named `stderr.txt`._
+
+chmod a+x script2.sh
+./script2.sh 1> sdout.txt
+./script2.sh 2> sderr.txt
 
 
 ## Problem 2
