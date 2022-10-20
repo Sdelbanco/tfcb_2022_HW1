@@ -12,6 +12,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 Complete the interactive tutorial.
 
 _Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
+
 I ran into some issues with the 'man' and 'vi' or 'vim' command (as did a few other students), so it would be good to include materials for troubleshooting issues.
 
 
