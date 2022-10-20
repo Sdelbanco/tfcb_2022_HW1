@@ -11,13 +11,13 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 
 Complete the interactive tutorial.
 
-02-directories
+### 02-directories
 
 To move to the greenland directory:
 
 cd tfcb_2022/lectures/lecture04/02-directories/purchase/greenland
 
-03-redirection
+### 03-redirection
 
 To count the number of files in lecture04
 
@@ -25,7 +25,7 @@ cd tfcb_2022/lectures/lectur04
 
 ls | wc -l
 
-04-vim
+### 04-vim
 
 vi anthony.txt
 
@@ -33,7 +33,7 @@ To change 'the United States' to 'America'
 
 :%/the United States/America/g
 
-05-
+### 05-history
 
 Points of frustration: 
 I ran into some issues with the 'man' and 'vi' or 'vim' command (as did a few other students), so it would be good to include materials for troubleshooting issues.
